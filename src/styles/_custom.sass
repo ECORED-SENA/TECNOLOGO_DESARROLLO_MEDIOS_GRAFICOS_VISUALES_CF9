@@ -1,0 +1,162 @@
+// ADORNOS FLOTANTES //
+.imagen-adornos-flotantes
+  position: relative
+  &__img
+    img
+      position: absolute
+      z-index: 99
+      animation: float 3s ease-in-out infinite alternate
+
+@keyframes float
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+.texto-adorno
+  width: fit-content
+  position: relative
+  &:before
+    content: url(../assets/curso/13.svg)
+    position: absolute
+    top: -40%
+    right: -10%
+    width: 46px
+// ADORNOS FLOTANTES //
+
+// BOTONES CARROUSEL //
+
+.carousel-control-prev, .carousel-control-next, .carousel-control-prev:focus, .carousel-control-next:focus, .carousel-control-prev:hover, .carousel-control-next:hover, 
+  background-color: transparent
+.carousel-control-prev-icon
+  background-image: url(../assets/curso/izquierda.svg) !important
+.carousel-control-next-icon
+  background-image: url(../assets/curso/derecha.svg) !important
+// BOTONES CARROUSEL //
+
+
+  // TARJETA TEXTO UP //
+.tarjetas-text
+  position: relative
+  overflow: hidden
+  &__contenido
+    width: 100%
+    transition: bottom 0.3s ease-in-out
+    position: absolute
+    background-color: #fbf7e7 !important
+    bottom: -15%
+    p
+      transition: opacity 0.3s ease-in-out
+      opacity: 0
+      display: none
+  &:hover
+    .tarjetas-text__contenido
+      height: 75%
+      bottom: 0
+      p
+        opacity: 1
+        display: block
+// TARJETA TEXTO UP //
+.tabs-a__tab
+  background-color:  #E8E8E8
+
+// TEXTO ADORNO // 
+.texto-adorno
+  width: fit-content
+  position: relative
+  &:before
+    content: url(../assets/curso/13.svg)
+    position: absolute
+    top: -40%
+    right: -10%
+    width: 46px
+// TEXTO ADORNO // 
+
+//LINEA GLOBOS // 
+.contenedor-globos
+  height: 100%
+  display: flex
+  justify-content: space-between
+  align-items: center
+  position: relative
+  @media (max-width: $bp-max-lg )
+    flex-direction: column
+  &:before
+    content: '' 
+    background-color:#26CCDA 
+    position: absolute
+    top: 50%
+    left: 0
+    width: 99%
+    height: 8px
+    @media (max-width: $bp-max-lg )
+      height: 80%
+      width: 8px
+      top: 5%
+      left: 50%
+  &__globo
+    position: relative
+    overflow: hidden
+    width: 165px
+    height: 165px
+    border-radius: 50%
+    background-color: #FFA726
+    display: flex
+    justify-content: center
+    align-items: center
+    transition: transform 0.3s ease-in-out
+    @media (max-width: $bp-max-lg )
+      margin-bottom: 40px
+    .contenedor-globos__globo__img
+      position: absolute
+      top: 0
+      left: 0
+      img
+        width: 165px
+        height: 165px
+        opacity: 0
+        transition: opacity 0.3s ease-in-out
+    &:hover
+      transform: scale(1.1)
+      .contenedor-globos__globo__img
+        img
+          opacity: 1
+//LINEA GLOBOS // 
+.linea-tiempo-d .tarjeta 
+  background-color: #dbf6f9 
+
+// BOTONES CARROUSEL //
+
+.carousel-control-prev, .carousel-control-next, .carousel-control-prev:focus, .carousel-control-next:focus, .carousel-control-prev:hover, .carousel-control-next:hover, 
+  background-color: transparent
+.carousel-control-prev-icon
+  background-image: url(../assets/curso/izquierda.svg) !important
+.carousel-control-next-icon
+  background-image: url(../assets/curso/derecha.svg) !important
+// BOTONES CARROUSEL //
+
+  // TARJETA TEXTO UP //
+.tarjetas-text
+  position: relative
+  overflow: hidden
+  &__contenido
+    width: 100%
+    transition: bottom 0.3s ease-in-out
+    position: absolute
+    background-color: #f3f9ff !important
+    bottom: -12%
+    p
+      transition: opacity 0.3s ease-in-out
+      opacity: 0
+      display: none
+  &:hover
+    .tarjetas-text__contenido
+      height: fit-content(80%)
+      bottom: 0
+        
+
+      p
+        opacity: 1
+        display: block
+// TARJETA TEXTO UP //
+
