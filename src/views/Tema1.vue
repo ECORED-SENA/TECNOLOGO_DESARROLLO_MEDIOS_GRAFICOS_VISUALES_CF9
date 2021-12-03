@@ -309,9 +309,35 @@
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ") 
-    TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones--borde.p-4(titulo="")
-
+    .col-lg-7
+      TabsA.color-acento-contenido.mb-5
+        .tarjeta.color-acento-contenido--borde.bg--3-claro.p-4.border-3(titulo="Burdo")
+          p En este tipo de boceto, <b>se plasma la idea tal y como el diseñador la visualiza en su mente</b>, preferiblemente a mano alzada y sin entrar en detalle. Este boceto es el más simple y el que en un inicio se utiliza para iniciar o arrancar cualquier idea.
+        .tarjeta.color-acento-contenido--borde.bg--3-claro.p-4.border-3(titulo="Comprensivo")
+          p Es un boceto con una calidad <b>un poco más elevada</b>, ni muy detallado ni muy simple. Este boceto puede incluir herramientas más técnicas para situar elementos como textos e ilustraciones, que apoyarán y darán comprensión.
+        .tarjeta.color-acento-contenido--borde.bg--3-claro.p-4.border-3(titulo="Dummy")
+          p Es el boceto con mejor calidad e incluye todos los elementos visuales que tendrá la composición final, sugiriendo elementos como los colores. Se recomiendan tipografías, tipo de sustratos, etc.
+    p.mb-5 Lo mejor de la bocetación es que es un recurso creativo de bajo costo. Cualquier superficie es válida para rayar, si bien es más recomendable una libreta o cuaderno que permita la conservación y protección del material. Es más importante y valiosa la capacidad de observación, un entorno tranquilo y consumir material gráfico. La creatividad necesita nutrirse para poder crecer y sobresalir.
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .bg--4-claro.p-5.position-relative.hover.hover-flip
+          p.text-center Por último, no se puede olvidar que, para los procesos de formación, como puede ser la persona más experta o el más principiante, se debería llevar una bitácora o libro de apuntes dedicado a la elaboración de bocetos. Estos apuntes y dibujos rápidos son la diferencia entre un proyecto con bases firmes y la improvisación.
+          .img(style=" position: absolute; bottom: -15%;  left: 0; width: 100%;  ")
+            img(src="@/assets/curso/36.svg" alt="Adornos flotantes" style=" width: 70px").m-auto
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.4 Correcciones y aprobación
+    .row.mb-5.align-items-center
+      .col-lg-7(data-aos="fade-right")
+        p.mb-3 Debido a los cambios que puede sufrir el proyecto, por depender del producto que se está creando y de la aprobación que satisfaga las expectativas de los clientes, entre otros aspectos, se hace necesario bocetar. El boceto cada vez se hará más detallado y completo, así, se contará con la aprobación del cliente respecto a cada una de las correcciones que se requieran, hasta llegar al producto final.
+          br
+          br
+          |Es claro que a los clientes se les deben presentar periódicamente miniaturas de bocetos, entre más detallado sea el boceto, más fácilmente se obtendrá la aprobación de este. Usualmente, se deben entregar una serie de bocetos en bruto, para que el cliente los revise y proponga sus modificaciones o cambios; posteriormente, se realizarán bocetos más completos, que también deben ser aprobados antes de ser realizados en medio digital. Entonces, el cliente debe estar de acuerdo con el arte antes de continuar con las etapas posteriores. Es importante la aprobación completa por parte del cliente, antes de pasar a la etapa final de ilustración.
+      .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
+        .imagen-adornos-flotantes
+          img(src="@/assets/curso/37.jpg" alt="Adornos flotantes")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ") 
 
 </template>
 
