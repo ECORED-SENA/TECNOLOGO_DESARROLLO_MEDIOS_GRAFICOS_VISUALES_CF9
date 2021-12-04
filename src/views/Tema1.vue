@@ -363,4 +363,8 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+
+.linea-tiempo-d .tarjeta
+  background-color: #dbf6f9
+</style>
