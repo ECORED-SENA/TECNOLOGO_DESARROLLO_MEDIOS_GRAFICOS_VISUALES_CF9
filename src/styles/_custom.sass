@@ -143,15 +143,26 @@
     transition: bottom 0.3s ease-in-out
     position: absolute
     background-color: #f3f9ff !important
-    bottom: -12%
+    bottom: -8%
     p
       transition: opacity 0.3s ease-in-out
       opacity: 0
       display: none
+    .iconos
+      i
+        font-size: 40px
+      i:nth-of-type(1)
+        display: none
+      
   &:hover
     .tarjetas-text__contenido
       height: fit-content(80%)
       bottom: 0
+      .iconos
+        i:nth-of-type(1)
+          display: block
+        i:nth-of-type(2)
+          display: none
         
 
       p
@@ -171,5 +182,23 @@
     right: -10%
     width: 46px
 // TEXTO ADORNO //
- 
+// TARJETA HOVER UP// 
+.tarjeta-hover
+  position: relative
+  overflow: hidden
+  &__img
+    width: 100%
+    height: 100%
+    position: absolute
+    bottom: -100%
+    left: 0
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    transition: bottom 0.3s ease-in-out
+    
+  &:hover
+    .tarjeta-hover__img
+      bottom: 0
+
 

@@ -249,28 +249,258 @@
       |Es importante tener en cuenta algunos elementos que proporcionan equilibrio en la composición de una imagen:
     .row.mb-5.justify-content-center
       .col-lg-3.mb-3
-        .tarjeta.bg--1.p-4.hover-flip.hover.h-100.hover-bg--4
+        .tarjeta-hover.tarjeta.bg--1.p-4.hover-flip.hover.h-100.hover-bg--4(@mouseover="mostrarIndicador= false")
+          .indicador--hover(v-if="mostrarIndicador")
           img(src="@/assets/curso/73.svg" alt="Adornos flotantes" style="width: 128px").mb-3
           h4 Espacios negativos
           p No se debe comprender solo lo que está dibujado o puesto en una composición, sino que se debe prestar atención a todo lo que construye, como los fondos o espacios negativos, que podrían simplemente ser espacios vacíos, ayudando a influir en la percepción de lo que se aprecia.
+          .tarjeta-hover__img(:style="{'background-image': `url(${require('@/assets/curso/79.jpg')})`}")
+
       .col-lg-3.mb-3
-        .tarjeta.bg--1.p-4.hover-flip.hover.h-100.hover-bg--4
-          img(src="@/assets/curso/73.svg" alt="Adornos flotantes" style="width: 128px").mb-3
+        .tarjeta-hover.tarjeta.bg--1.p-4.hover-flip.hover.h-100.hover-bg--4
+          img(src="@/assets/curso/74.svg" alt="Adornos flotantes" style="width: 128px").mb-3
           h4 Peso
           p Cada objeto dentro de la ilustración tiene un peso, por eso es necesario equilibrar cada elemento en el área de trabajo. A veces, el ilustrador utiliza los espacios vacíos.
+          .tarjeta-hover__img(:style="{'background-image': `url(${require('@/assets/curso/80.jpg')})`}")
+
       .col-lg-3.mb-3
-        .tarjeta.bg--1.p-4.hover-flip.hover.h-100.hover-bg--4
-          img(src="@/assets/curso/73.svg" alt="Adornos flotantes" style="width: 128px").mb-3
+        .tarjeta-hover.tarjeta.bg--1.p-4.hover-flip.hover.h-100.hover-bg--4
+          img(src="@/assets/curso/75.svg" alt="Adornos flotantes" style="width: 128px").mb-3
           h4 Puntos focales
           p Son aquellos sitios hacia los cuales se dirige nuestra mirada cuando vemos la ilustración. Lo primero que se observa es la figura humana. A veces, el ilustrador aísla a propósito un elemento. Los elementos deben estar aireados, aunque no en espacios vacíos.
+          .tarjeta-hover__img(:style="{'background-image': `url(${require('@/assets/curso/81.jpg')})`}")
+
       .col-lg-3.mb-3
-        .tarjeta.bg--1.p-4.hover-flip.hover.h-100.hover-bg--4
-          img(src="@/assets/curso/73.svg" alt="Adornos flotantes" style="width: 128px").mb-3
+        .tarjeta-hover.tarjeta.bg--1.p-4.hover-flip.hover.h-100.hover-bg--4
+          img(src="@/assets/curso/76.svg" alt="Adornos flotantes" style="width: 128px").mb-3
           h4 Regla de tres
           p Para añadir más dinamismo a las ilustraciones, es preferible colocar elementos en número impar.
+          .tarjeta-hover__img(:style="{'background-image': `url(${require('@/assets/curso/82.jpg')})`}")
     p.mb-5 Y la perspectiva se puede definir como el conjunto de técnicas que permiten trasladar una escena a un plano bidimensional, donde se recrean la profundidad y la posición de los objetos para lograrlo. Tiene elementos generales para calcular la disminución del tamaño de los objetos debido a su distancia o posición.
     .texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
       h4.mb-0.me-3 Perspectiva lineal
+    .row.justify-content-center
+      .col-lg-5.mb-3
+        .tarjeta.tarjetas-text.rounded-0(@mouseover="mostrarIndicador= false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src="@/assets/curso/77.svg" alt="Adornos flotantes" style="width: 100% ").mb-3
+          .tarjetas-text__contenido.tarjeta--amarilla.px-5.pb-5.pt-3
+            .iconos
+              i.fas.fa-angle-down
+              i.fas.fa-angle-up
+            p Es la que se refiere a la geometría de la escena y los elementos que la contienen, dado que, con las distancias, estos elementos tienden a perder tamaño, definición y, claro está, su detalle. Se encuentra que los elementos que están más cerca se van a ver más grandes, es posible percatarse de que los contornos se van suavizando con su distancia, al igual que sus ángulos y sus aristas.
+      .col-lg-5.mb-3
+        .tarjeta.tarjetas-text.rounded-0(@mouseover="mostrarIndicador= false")
+          img(src="@/assets/curso/78.svg" alt="Adornos flotantes" style="width: 100% ").mb-3
+          .tarjetas-text__contenido.tarjeta--amarilla.px-5.pb-5.pt-3
+            .iconos
+              i.fas.fa-angle-down
+              i.fas.fa-angle-up
+            p Es la que se refiere a la geometría de la escena y los elementos que la contienen, dado que, con las distancias, estos elementos tienden a perder tamaño, definición y, claro está, su detalle. Se encuentra que los elementos que están más cerca se van a ver más grandes, es posible percatarse de que los contornos se van suavizando con su distancia, al igual que sus ángulos y sus aristas.
+    p.mb-5 Entendido esto, podemos establecer tres tipos de perspectiva:
+    ImagenInfografica.color-acento-contenido.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/83.jpg', alt='Texto que describa la imagen')
+
+      .tarjeta.tarjeta--amarilla.p-3(x="14%" y="57%" numero="")
+        h4 De un punto
+        p Esta perspectiva se produce cuando el punto de vista esta paralela a una, las líneas verticales de esa pared o edificio se mantendrán paralelas y no fugarán; aunque si lo harán las líneas horizontales, las del suelo, las que delimitan los bordes superiores de los edificios.
+          br
+          br
+          |Es la fuga de un punto. Un ejemplo sería si nos situamos en el medio de una calle y enfocamos hacia el final de esta, eso sí, manteniendo la vista paralela a las paredes de los edificios.
+      .tarjeta.tarjeta--amarilla.p-3(x="39%" y="50%" numero="")
+        h4 De dos puntos
+        p En este tipo de perspectiva nos encontramos con dos puntos de fuga diferentes, dos líneas paralelas que se dibujan oblicuas hacia dos puntos de fuga diferentes; se pueden encontrar ejemplos al observar una esquina o un rincón de un edificio, donde se puedan contemplar ambas caras de su fachada y sus puntos se extenderán en las direcciones de la calle, es decir dos puntos de fuga. 
+      .tarjeta.tarjeta--amarilla.p-3(x="83%" y="60%" numero="")
+        h4 De tres puntos
+        p Esta perspectiva se produce de la misma manera que la anterior, se sitúa observando una esquina, pero se añade una inclinación adicional, de forma que esta se incline hacia arriba o hacia abajo, haciendo que las líneas que se encuentran verticales también fuguen en un punto.
+          br
+          br
+          |Lo más normal en este tipo de planos, es que estos puntos de fuga se encuentren por fuera del marco por lo que es necesario que el observador pueda entenderlos.
+    p.mb-5 La perspectiva lineal ayuda a situar objetos en la escena y a establecer relaciones entre ellos, no es absolutamente necesario que exista una línea visible que los una, la distancia entre ellos crea un punto de unión y, por lo tanto, un punto de fuga que se utiliza en las composiciones. Al igual que los puntos de fuga y las líneas paralelas o las oblicuas, es necesario entender otros conceptos que ayudarán a comprender mejor estos conceptos de perspectiva.
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .bg--1-claro.p-5.position-relative.hover.hover-flip
+          p.text-center.mb-0.mt-3 Por ejemplo, la línea de horizonte es la línea imaginaria que divide arriba y abajo, y ayuda a ubicar especialmente el contenido y posición de los elementos y los puntos de fuga. Asimismo, ubicar las líneas de tierra, que será donde se ubiquen los objetos y serán las líneas que representan su presencia en la superficie que los sostiene; ubicadas estas líneas, se encuentra el punto de vista, que será el punto imaginario donde el artista plasmará y recreará el momento donde precisó la mirada y ubicará al usuario en ese mismo momento.
+          .img(style=" position: absolute; top: -15%;  left: 0; width: 100%;  ")
+            img(src="@/assets/curso/84.svg" alt="Adornos flotantes" style=" width: 70px").m-auto
+    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.5 Creación de ambientes, personajes y props
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/85.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 La creación de ambientes, personajes y props tiene una gran importancia en la elaboración de una escena de teatro, cine, televisión o videojuegos, porque complementa ambientes y da características especiales a situaciones y personajes.
+    .texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
+      h4.mb-0.me-3 Creación de ambientes
+    .row.mb-5.align-items-center
+      .col-lg-7(data-aos="fade-right")
+        p.mb-3 En la ilustración, es muy importante la creación de ambientes en los que se desarrolla la idea en general, permite que el observador se imagine dónde y cuándo sucede la acción, se logra transportar al espectador a escenarios del pasado, presente o futuro.
+          br
+          br
+          |El ambiente en el cual se desarrolla la acción complementa los elementos compositivos y las características de los personajes, los cuales deben estar inmersos en una temporalidad y en un espacio, de noche o de día, verano o invierno, paisaje rural o urbano, si ocurre en un interior o en un exterior. El ambiente debe guardar relación con los personajes, para darle cohesión a la imagen y al mensaje que se quiere comunicar. 
+      .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
+        .imagen-adornos-flotantes
+          img(src="@/assets/curso/86.jpg" alt="Adornos flotantes")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")  
+    p.mb-5 Existen tres tipos de ambientes que en muchas ocasiones se complementan, estos son:
+    .row.mb-5.justify-content-center
+      .col-lg-4.mb-3
+        .tarjeta-hover.tarjeta.color-secundario--borde.p-4.hover-flip.hover.h-100(@mouseover="mostrarIndicador= false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src="@/assets/curso/87.jpg" alt="Adornos flotantes" style="width: 152px").mb-3
+          h4 Ambiente físico
+          p Es el lugar o sitio donde se desarrolla la historia y confluyen los personajes, puede ser real o irreal.
+          .tarjeta-hover__img(:style="{'background-image': `url(${require('@/assets/curso/87.jpg')})`}")
+      .col-lg-4.mb-3
+        .tarjeta-hover.tarjeta.color-secundario--borde.p-4.hover-flip.hover.h-100(@mouseover="mostrarIndicador= false")
+          img(src="@/assets/curso/88.jpg" alt="Adornos flotantes" style="width: 152px").mb-3
+          h4 Ambiente social
+          p Es la condición o entorno social en el que se desenvuelve la acción de los personajes, por ejemplo, su condición religiosa, clase social, nivel económico o cultural. 
+          .tarjeta-hover__img(:style="{'background-image': `url(${require('@/assets/curso/88.jpg')})`}")
+      .col-lg-4.mb-3
+        .tarjeta-hover.tarjeta.color-secundario--borde.p-4.hover-flip.hover.h-100(@mouseover="mostrarIndicador= false")
+          img(src="@/assets/curso/89.jpg" alt="Adornos flotantes" style="width: 152px").mb-3
+          h4 Ambiente sicológico: 
+          p Es el ambiente emocional e íntimo que presentan los personajes, su amor, deseo de venganza, dolor, miedo o ira, entre otros. 
+          .tarjeta-hover__img(:style="{'background-image': `url(${require('@/assets/curso/89.jpg')})`}")
+    .texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
+      h4.mb-0.me-3 El personaje
+    .row.mb-5.align-items-center
+      .col-lg-7(data-aos="fade-right")
+        p.mb-3 La palabra personaje proviene del etrusco y significa máscara, así que cuando se crea una historia no sólo se recrea un ambiente, sino que se piensa en la función que desempeñará, qué características físicas y de personalidad tendrá, para definir qué es lo más conveniente. Es importante conocer el tipo de público para el cual va dirigida la ilustración, comics, libros infantiles, aficionados a la ficción o a los videojuegos.
+          br
+          br
+          |Siendo un tema tan extenso y pudiendo contemplar cientos de temas, se puede plantear que la construcción de un personaje es un concepto tan complejo que hasta la filosofía debería ser un tema que se debería incluir.
+      .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
+        .imagen-adornos-flotantes
+          img(src="@/assets/curso/90.svg" alt="Adornos flotantes")
+    p.mb-5 Para crear un personaje en ilustración, se deben tener en cuenta algunos aspectos, tales como: 
+    .row.mb-5
+      .col-lg-3(data-aos="fade-right"): img(src="@/assets/curso/91.svg" alt="Adornos flotantes")
+      .col-lg-9(data-aos="fade-left")
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            p.mb-0 <b>Enumerar</b> las características que debe tener.
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            p.mb-0 <b>Simbolizarlas y sintetizarlas</b> con imágenes una a una.
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            p.mb-0 Dejar las <b>simbologías de mayor recordación</b> y agruparlas. 
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            p.mb-0 Las características deben ser <b>físicas, psicológicas, intelectuales, espirituales</b>, etc. 
+          li 
+            .lista-ol--cuadro__vineta
+              span 5
+            p.mb-0 <b>Es importante determinar</b> si vive en familia o solo.
+          li 
+            .lista-ol--cuadro__vineta
+              span 6
+            p.mb-0 Posteriormente, se elabora la bocetación del personaje, <b>visto de frente, de vista lateral, de espalda, de tres cuartos</b>.
+          li 
+            .lista-ol--cuadro__vineta
+              span 7
+            p.mb-0 Es necesario <b>conocer cómo se mueve</b>, las poses, los gestos.
+          li 
+            .lista-ol--cuadro__vineta
+              span 8
+            p.mb-0 Las actividades que realiza, los contextos o el entorno en el que vive o trabaja, entre otras.
+          li 
+            .lista-ol--cuadro__vineta
+              span 9
+            p.mb-0 Igualmente, es importante conocer quiénes son sus acompañantes, personas o animales.
+    p.mb-5 Para la construcción de un personaje, es importante tener en cuenta el arquetipo o el paradigma del personaje, que básicamente son sus características. En el siguiente video, se podrán identificar herramientas de valor para la construcción de arquetipos. 
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.mb-5.align-items-center
+      .col-lg-7(data-aos="fade-right")
+        p.mb-3 Una vez que conocemos los arquetipos que pueden ayudar a enfatizar nuestro personaje, es posible empezar a definir otros rasgos que apunten a mejorar la historia, para volverlo un personaje único, y que pueden contener más información de su personalidad y apariencia. 
+          br
+          br
+          |<b>Es importante que, al momento de desarrollar personajes, se tenga en cuenta que las características y cualidades deben ir muy de la mano con un buena historia de fondo; esto ayuda a darle motivos, contextos y objetivos al personaje</b>; esta historia permite también explicar el mundo donde la historia tiene relación y alguna información del mundo donde se habita, la idea es proporcionar detalles que ayuden a preparar el camino donde el personaje se va a desarrollar. No es importante dejar todo expuesto en la historia de trasfondo, simplemente la historia irá revelando elementos importantes que ayuden a la trama de nuestro personaje .
+      .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
+        .imagen-adornos-flotantes
+          img(src="@/assets/curso/92.jpg" alt="Adornos flotantes")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ") 
+    p.mb-5 Definir algunos detalles, como pensar en lo que el personaje desea o simplemente lo que podría comer, permite al espectador y al planificador llenarse de características que permiten darle más cualidades y tener visiones más acertadas de lo que se espera o se quiere comunicar. <b>Acercarse a un personaje más real, entender por qué y cómo reaccionaría frente alguna situación le da características que lo harán más convincente</b>, un personaje con el que se puede llegar a tener algún sentimiento.
+    .bg--4-claro.p-4.mb-5
+      .row
+        .col-lg-2
+          img(src="@/assets/curso/93.svg" alt="Imagen" style="width: 177px").m-auto
+        .col-lg-10
+          p Los <b>Props son objetos o accesorios móviles o portátiles que son utilizados por los personajes en cine, televisión o videojuegos</b>, no forman parte de la ambientación, pero adquieren relevancia a lo largo de la historia que se pretende contar. <b>Hacen reconocible la personalidad de los personajes y hasta lo ubican históricamente</b>, como, por ejemplo, si utilizan una espada romana. Son creados por un artista que tiene como misión crear ideas o aspectos sobre algo que no se conocía y sobre algo conocido, diseñando el objeto desde varios ángulos, en detalle, para que los modeladores puedan crear el objeto, <b>siendo muy importante en el diseño de videojuegos, películas o televisión.</b>
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-g.bloque-animado.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Ejemplos: el martillo de Thor, el cinto de la Mujer Maravilla y su lazo de la verdad, las espadas de Cid el Campeador, el sable láser de Darth Vader, entre otros.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </template>
 
 <script>
@@ -386,5 +616,30 @@ export default {
 .tarjeta--azul
   background-color: #dbf6f9
 .tarjeta--amarilla
-  background-color: #fff9dd
+  background-color: #fff9dd !important
+.bloque-animado
+  .bloque-texto-g__img
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    transition: background-image 1s ease-in-out
+    animation-name: imagenes1 !important
+    animation-timing-function: linear
+    animation-iteration-count: infinite
+    animation-duration: 15s
+@keyframes imagenes1
+  0%
+    background-image: url(../assets/curso/94.jpg)
+  25%
+    background-image: url(../assets/curso/95.jpg)
+
+  50%
+    background-image: url(../assets/curso/96.jpg)
+
+
+  75%
+    background-image: url(../assets/curso/97.jpg)
+
+  100%
+    background-image: url(../assets/curso/94.jpg)
 </style>
