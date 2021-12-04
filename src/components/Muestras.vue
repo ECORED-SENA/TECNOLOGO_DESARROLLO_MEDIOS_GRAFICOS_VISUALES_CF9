@@ -1352,9 +1352,6 @@ div
 
   h3 Linea Tiempo C
   .tarjeta.tarjeta--gris.p-4.mb-5
-    //- LineaTiempoC debe ir acompañado de una de una de estas clases => 
-    //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    //- text-small se usa para que los títulos sean mas pequeños
     LineaTiempoC.color-acento-contenido(text-small)
       .row(titulo="1761")
         .col-md-6.mb-4.mb-md-0
