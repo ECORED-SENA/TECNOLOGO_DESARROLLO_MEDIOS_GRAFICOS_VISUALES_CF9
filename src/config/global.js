@@ -24,81 +24,71 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Producción gráfica',
+        titulo: 'Del boceto a la ilustración	',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Definición del proyecto	',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Selección de <i>software</i>	',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Técnicas y aplicaciones	',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Correcciones y aprobación	',
+            hash: 't_1_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '<i>Software</i> vectorial',
+        titulo: 'Ilustración	',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Interfaz y áreas de trabajo',
+            titulo: 'Fases',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Capas',
+            titulo: 'Clasificación de ilustraciones	',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Herramientas de selección',
+            titulo: 'Técnicas	',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Herramientas de dibujo e ilustración',
+            titulo: 'Composición y perspectiva	',
             hash: 't_2_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Herramientas de color',
+            titulo: 'Creación de ambientes, personajes y props	',
             hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Herramientas de texto',
-            hash: 't_2_6',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.7',
-            titulo: 'Herramientas de efectos',
-            hash: 't_2_7',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.8',
-            titulo: 'Herramientas de pinceles',
-            hash: 't_2_8',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.9',
-            titulo: 'Herramientas de organización de objetos',
-            hash: 't_2_9',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.10',
-            titulo: 'Almacenamiento, importación y exportación',
-            hash: 't_2_10',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '',
-            titulo: 'Sintesis',
-            hash: 't_sintesis',
           },
         ],
       },
@@ -106,8 +96,28 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: '<i>Software</i> vectorial',
+        titulo: 'Imagen e identidad corporativa	',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Diseño de marca y <i>branding</i>	',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Productos editoriales	',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Productos gráficos',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -140,89 +150,61 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Adobe. (2016). Ayuda de Adobe Illustrator CC',
-      link: 'https://helpx.adobe.com/es/pdf/illustrator_reference.pdf',
-    },
-    {
-      referencia: 'Adobe. (2017). Empaquetado de archivos.',
-      link: 'https://helpx.adobe.com/es/illustrator/using/package-files.html',
-    },
-    {
-      referencia: 'Adobe. (s.f.). Resumen de efectos.',
-      link: 'https://helpx.adobe.com/es/illustrator/using/summary-effects.html',
-    },
-    {
-      referencia: 'Angie. (2020). Tipos de Branding.',
-      link: 'https://www.grupoendor.com/tipos-de-branding/ ',
-    },
-    {
       referencia:
-        'ARD. (2019). Combinar, unir, agrupar CAPAS en Illustrator cc 2019 PowerPoint [Video]. YouTube. ',
-      link: 'https://www.youtube.com/watch?v=mpuHqvgeKpc',
+        'Capriotti, P. (2009). Branding corporativo. Fundamentos para la gestión estratégica de la identidad corporativa.',
+      link: '',
     },
     {
-      referencia:
-        'Capriotti P. (2009). Branding corporativo Fundamentos para la gestión estratégica de la identidad corporativa. ',
+      referencia: 'Colección de Libros de la Empresa.',
       link: 'http://www.analisisdemedios.com/branding/BrandingCorporativo.pdf',
     },
     {
       referencia:
-        'Kalous, P. (2010). Una introducción a las herramientas de color de Illustrator.',
+        'Fernández, F. (2012). Imágenes con 1, 2 y 3 puntos de fuga. Dibujando. ',
       link:
-        'https://design.tutsplus.com/es/tutorials/an-introduction-to-illustrators-color-tools--vector-3549',
+        'https://dibujando.net/tutorial/perspectiva/imagenes-con-1-2-y-hasta-3-puntos-de-fuga-32718',
     },
     {
       referencia:
-        'Leyva, V. (s.f.). El diseño gráfico de materiales educativos.',
+        'García, H. (2017). Ilustración publicitaria. Ilustrando en la escuela de arte. ',
       link:
-        'https://foroalfa.org/articulos/el-diseno-grafico-de-materiales-educativos',
-    },
-    {
-      referencia: 'Ojeda, G. (2010). La Producción Gráfica.',
-      link: 'https://es.slideshare.net/tls02cv/produccion-grafica',
+        'http://ilustrandoenlaescueladearte.blogspot.com/2014/10/ilustracion-publicitaria.html',
     },
     {
       referencia:
-        'Razak, A. (s.f.). Naming: definición, tipos y guía paso a paso. ',
-      link: 'https://www.branfluence.com/guia-proceso-de-naming/',
-    },
-    {
-      referencia: 'Rivas, T. (2020). ¿Qué es un acrónimo? ',
-      link:
-        'https://www.estandarte.com/noticias/idioma-espanol/qu-es-un-acrnimo_2120.html',
+        'Menza, A., Sierra, E. y Sánchez, W. (2016). La ilustración: dilucidación y proceso creativo. Revista KEPES, 13(13), p. 265-296.',
+      link: 'http://vip.ucaldas.edu.co/kepes/downloads/Revista13_12.pdf',
     },
     {
       referencia:
-        'Samsing, C. (2019). Branding Empresarial: cómo crear un manual de identidad corporativa.',
+        'Moreno, J. (2021). ¿Cómo crear un manual de identidad corporativa paso a paso? HubSpot. ',
       link:
         'https://blog.hubspot.es/marketing/branding-e-identidad-corporativa-guias-de-estilo',
     },
     {
-      referencia: 'Santarsiero, H. (2008). La Producción gráfica. ',
-      link:
-        'https://elblogdelprofenestor.files.wordpress.com/2019/05/produccion-grafica-h-santarsiero.pdf',
+      referencia: 'Sosa, A. (2020). Tipos de Branding. Grupo Endor.',
+      link: 'https://www.grupoendor.com/tipos-de-branding/',
     },
   ],
   glosario: [
     {
+      termino: 'Análoga',
+      significado: 'que tiene analogía con algo.',
+    },
+    {
       termino: '<i>Branding</i>',
       significado:
-        'hace referencia al proceso para construir y gestionar una marca, se vincula en forma directa o indirecta al nombre y/o símbolo (logotipo), que la identifican, la hacen única y competitiva.',
+        'hace referencia al proceso para construir y gestionar una marca, se vincula en forma directa o indirecta al nombre y/o símbolo (logotipo) que la identifican, la hacen única y competitiva.',
     },
     {
       termino: 'Editorial',
       significado:
-        'corresponde a un artículo que expresa la opinión sobre un tema determinado, generalmente de interés público; a través de un medio de comunicación como el periódico o la revista.',
+        'corresponde a un artículo que expresa la opinión sobre un tema determinado, generalmente de interés público, a través de un medio de comunicación como el periódico o la revista',
     },
     {
       termino: 'Exponencial',
       significado:
-        'relativo al crecimiento, que se incrementa cada vez más rápido. ',
-    },
-    {
-      termino: 'Interfaz de usuario',
-      significado:
-        'en el ámbito de la informática se conoce como el medio que le permite al usuario comunicarse con la máquina. Generalmente los programas informáticos usan una interfaz intuitiva, que facilita la navegación e interacción.',
+        'relativo al crecimiento, que se incrementa cada vez más rápido.',
     },
     {
       termino: 'Marca',
@@ -230,43 +212,34 @@ export default {
         'se entiende como una identificación comercial, conformada por atributos y valores que la hacen única.',
     },
     {
+      termino: 'Pantone',
+      significado:
+        '“Es un sistema de identificación de colores de impresión creado por la empresa Pantone”. Izquierdo, T. (2019). Diseño gráfico y web.',
+    },
+    {
       termino: 'Publicidad',
       significado:
         'es una forma de comunicación con el propósito de presentar, divulgar o promocionar productos o servicios.',
     },
-    {
-      termino: '<i>Software</i> vectorial',
-      significado:
-        'permite la creación de diseños con gran valor artístico a través de vectores, y con la ventaja que se pueden ampliar o reducir sin perder la calidad.',
-    },
   ],
   complementario: [
     {
-      texto: 'Ojeda, G. (2010). La Producción Gráfica.',
-      tipo: 'Presentación',
-      link: 'https://es.slideshare.net/tls02cv/produccion-grafica',
-    },
-    {
-      texto: 'Santarsiero, H. (2008) La Producción gráfica.',
+      texto:
+        'Capriotti, P. (2009). Branding corporativo. Fundamentos para la gestión estratégica de la identidad corporativa. Colección de Libros de la Empresa.',
       tipo: 'PDF',
-      descarga: '/downloads/produccion.pdf',
-    },
-    {
-      texto: 'Adobe. (2016). Ayuda de Adobe Illustrator CC.',
-      tipo: 'PDF',
-      descarga: '/downloads/ayuda-adobe.pdf',
+      descarga: '/downloads/BrandingCorporativo.pdf',
     },
     {
       texto:
-        'Capriotti, P. (2009). Branding corporativo, fundamentos para la gestión estratégica de la identidad corporativa. ',
-      tipo: 'PDF',
-      descarga: '/downloads/branding.pdf',
-    },
-    {
-      texto:
-        'ARD (2019). Combinar, unir, agrupar CAPAS en Illustrator cc 2019 PowerPoint. [Video]. YouTube. ',
+        'Notodoanimacion. (2020). Cómo Diseñar Personajes NIVEL DIOS (2 HORAS) Curso de Diseño y Creación de Personajes GRATIS [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=mpuHqvgeKpc',
+      link: 'https://www.youtube.com/watch?v=QXEoH4AsnUE',
+    },
+    {
+      texto:
+        'Barba Batel. (2020). Tutorial básico de luces y sombras en el dibujo artístico [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ma8dsEsOh34',
     },
   ],
   creditos: {
@@ -286,31 +259,31 @@ export default {
       },
       {
         nombre: 'Guillermo Eduardo González. ',
-        cargo: 'Instructor',
+        cargo: 'Instructor Experto Temático',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
       },
       {
         nombre: 'Eduardo José Velasco',
-        cargo: 'Experto temático',
+        cargo: 'Instructor Experto Temático',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
       },
       {
-        nombre: 'Alix Cecilia Chinchilla Rueda',
+        nombre: 'Adriana López',
         cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
-        nombre: 'Andrés Felipe Velandia Espitia',
+        nombre: 'Ana Catalina Córdoba Sus',
         cargo: 'Revisor metodológico y pedagógico',
-        centro: 'Centro de Diseño y Metrología Regional Distrito Capital ',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
       },
       {
-        nombre: 'Jhana Johanna Bustillo Ardila',
-        cargo: 'Revisión de estilo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander ',
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima ',
       },
     ],
     desarrolloProducto: [

@@ -22,7 +22,7 @@
     .titulo-sexto.color-acento-contenido
       h5 Figura 1 
       span Características
-
+    BotonesC.mb-5
 
     //todo! PENDIENTE MAQUETAR COMPONENTE BOTONES 
     //todo! PENDIENTE MAQUETAR COMPONENTE BOTONES 
@@ -46,60 +46,64 @@
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")   
     p.mb-5 A continuación, se conocerán las etapas del proceso creativo en su primera fase: 
-    .tarjeta.tarjeta--azul.p-4.mb-5
-      LineaTiempoC.color-acento-contenido(text-small)
-        .row(titulo="Preparación").px-5
-          .col-md-4
-            figure
-              img(src='@/assets/curso/42.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
-            h4 Preparación
-            p Se plantea un problema y se recoge toda la información, dando posibilidades para la solución de un problema.
-        .row(titulo="Incubación").px-5
-          .col-md-4
-            figure
-              img(src='@/assets/curso/43.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
-            h4 Incubación
-            p Interiorización del problema, se revisan y se conectan todas las ideas. Etapa donde se piensa mucho en las estrategias para su solución.
-        .row(titulo="Iluminación").px-5
-          .col-md-4
-            figure
-              img(src='@/assets/curso/44.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
-            h4 Iluminación
-            p Se produce una chispa y se organizan todas las ideas, ayudando a conseguir la solución más adecuada.
-        .row(titulo="Verificación").px-5
-          .col-md-4
-            figure
-              img(src='@/assets/curso/45.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
-            h4 Verificación
-            p Se verifica y valida la solución para saber si se desecha o se toma y se perfecciona.
+    .row.justify-content-center.mb-5
+      .col-lg-10(data-aos="fade-left")
+        .tarjeta.tarjeta--azul.p-4.mb-5
+          LineaTiempoC.color-acento-contenido(text-small)
+            .row(titulo="Preparación").px-5
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/42.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                h4 Preparación
+                p Se plantea un problema y se recoge toda la información, dando posibilidades para la solución de un problema.
+            .row(titulo="Incubación").px-5
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/43.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                h4 Incubación
+                p Interiorización del problema, se revisan y se conectan todas las ideas. Etapa donde se piensa mucho en las estrategias para su solución.
+            .row(titulo="Iluminación").px-5
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/44.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                h4 Iluminación
+                p Se produce una chispa y se organizan todas las ideas, ayudando a conseguir la solución más adecuada.
+            .row(titulo="Verificación").px-5
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/45.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                h4 Verificación
+                p Se verifica y valida la solución para saber si se desecha o se toma y se perfecciona.
     p.mb-5 Entendida esta primera fase, donde se sabe qué se quiere y cómo se quiere, se avanza a una segunda fase:
-    .tarjeta.tarjeta--amarilla.p-4.mb-5
-      LineaTiempoC.color-acento-contenido(text-small)
-        .row(titulo="Conceptualización").px-5
-          .col-md-4
-            figure
-              img(src='@/assets/curso/46.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
-            h4 Conceptualización
-            p Para conseguir la ilustración que se propone, se avanza a explorar un poco más, consultando referencias gráficas, las que contribuirán con ideas de diferentes artistas y ampliarán el abanico de posibilidades para la construcción del proyecto.
-        .row(titulo="").px-5
-          .col-md-4
-            figure
-              img(src='@/assets/curso/47.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
-            h4 Bocetación
-            p El boceto debe ser un bosquejo rápido, que plasme las ideas más importantes y que ayude a visualizar y encaminar un proyecto.
-        .row(titulo="Finalización").px-5
-          .col-md-4
-            figure
-              img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
-            h4 Finalización
-            p Donde se hará uso de las técnicas con las que mejor se trabaje y se pueda llegar a una digitalización para su presentación final. Acá se dan los últimos detalles y se dará  conclusión a la obra de arte.
+    .row.justify-content-center.mb-5
+      .col-lg-10(data-aos="fade-right")
+        .tarjeta.tarjeta--amarilla.p-4.mb-5
+          LineaTiempoC.color-acento-contenido(text-small)
+            .row(titulo="Conceptualización").px-5
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/46.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                h4 Conceptualización
+                p Para conseguir la ilustración que se propone, se avanza a explorar un poco más, consultando referencias gráficas, las que contribuirán con ideas de diferentes artistas y ampliarán el abanico de posibilidades para la construcción del proyecto.
+            .row(titulo="").px-5
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/47.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                h4 Bocetación
+                p El boceto debe ser un bosquejo rápido, que plasme las ideas más importantes y que ayude a visualizar y encaminar un proyecto.
+            .row(titulo="Finalización").px-5
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/48.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                h4 Finalización
+                p Donde se hará uso de las técnicas con las que mejor se trabaje y se pueda llegar a una digitalización para su presentación final. Acá se dan los últimos detalles y se dará  conclusión a la obra de arte.
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2. Clasificación de ilustraciones
     p.mb-5 En el mundo del diseño y la ilustración, es posible encontrar distintos tipos de ilustraciones, pero es necesario clasificarlas en dos grandes secciones o clases: ilustraciones conceptuales e ilustraciones literales. Conozca cada una de ellas.
@@ -505,10 +509,12 @@
 
 <script>
 import BannerInterno from '../components/BannerInterno.vue'
+import BotonesC from '../components/BotonesC.vue'
 export default {
   name: 'Tema2',
   components: {
     BannerInterno,
+    BotonesC,
   },
   data: () => ({
     indicadorTarjetaFlip: true,
