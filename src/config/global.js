@@ -102,6 +102,13 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: '<i>Software</i> vectorial',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
