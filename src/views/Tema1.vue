@@ -76,17 +76,17 @@
       h2 1.2 Selección de <i>software</i>     
     .row.mb-5.align-items-center
       .col-lg-7(data-aos="fade-right")
-        p.mb-3 Primero, hay que decir que un software se podría definir como el programa o conjunto de programas que contiene una cantidad de herramientas y elementos que permiten desarrollar diferentes tipos de acciones y tareas dentro de un sistema o ambiente informático.
+        p.mb-3 Primero, hay que decir que un <i>software</i> se podría definir como el programa o conjunto de programas que contiene una cantidad de herramientas y elementos que permiten desarrollar diferentes tipos de acciones y tareas dentro de un sistema o ambiente informático.
           br
           br
-          |Si bien es cierto que existe diversidad de programas para el manejo y el uso de ilustración digital, Adobe es una de las empresas más importantes, ya que se basa en el trabajo colaborativo de todas sus herramientas, permitiendo interrelacionarlas y tener herramientas especializadas en diversos programas de software de diseño que integran un sinfín de herramientas enfocadas en la ilustración, el video, el arte y la fotografía, entre otros.
+          |Si bien es cierto que existe diversidad de programas para el manejo y el uso de ilustración digital, Adobe es una de las empresas más importantes, ya que se basa en el trabajo colaborativo de todas sus herramientas, permitiendo interrelacionarlas y tener herramientas especializadas en diversos programas de <i>software</i> de diseño que integran un sinfín de herramientas enfocadas en la ilustración, el video, el arte y la fotografía, entre otros.
       .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
         .imagen-adornos-flotantes
           img(src="@/assets/curso/10.jpg" alt="Adornos flotantes")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")  
-    p.mb-5 La selección del software se realiza a partir de las exigencias requeridas para el proyecto a realizar, también depende de los recursos de que se disponga en cuanto a software. A continuación, se hará un breve análisis de los softwares más utilizados:
+    p.mb-5 La selección del <i>software</i> se realiza a partir de las exigencias requeridas para el proyecto a realizar, también depende de los recursos de que se disponga en cuanto a <i>software</i>. A continuación, se hará un breve análisis de los <i>softwares</i> más utilizados:
     .tarjeta.bg--2-claro2.p-4.mb-5
       #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel')
     
@@ -117,24 +117,24 @@
               .carousel-item.px-4
                 .row.align-items-center
                   .col-lg-6
-                    h5 Illustrator
-                    p Uno de los softwares más utilizados en el mundo del diseño cuando se piensa trabajar con vectores, gracias a sus herramientas y su fácil relación con el entorno.
+                    h5 <i>Illustrator</i>
+                    p Uno de los <i>softwares</i> más utilizados en el mundo del diseño cuando se piensa trabajar con vectores, gracias a sus herramientas y su fácil relación con el entorno.
                   .col-lg-6
                     .rounded-3.overflow-hidden
                       img(src="@/assets/curso/12.jpg")
               .carousel-item.px-4
                 .row.align-items-center
                   .col-lg-6
-                    h5 Photoshop
-                    p Uno de los softwares más reconocidos en la ilustración digital, que involucra una cantidad de técnicas y efectos que ayudarán como recursos al momento de pensar en crear, ilustrar o retocar una imagen; trabaja bajo el mapa de bits y se usa en trabajos de retoque de fotografías, edición y animación.
+                    h5 <i>Photoshop</i>
+                    p Uno de los <i>softwares</i> más reconocidos en la ilustración digital, que involucra una cantidad de técnicas y efectos que ayudarán como recursos al momento de pensar en crear, ilustrar o retocar una imagen; trabaja bajo el mapa de bits y se usa en trabajos de retoque de fotografías, edición y animación.
                   .col-lg-6
                     .rounded-3.overflow-hidden
                       img(src="@/assets/curso/13.jpg")
               .carousel-item.px-4
                 .row.align-items-center
                   .col-lg-6
-                    h5 Clip Studio Paint 
-                    p Para los amantes del cómic, no existe una mejor opción que el antes conocido como <b>“Manga Studio”</b> y <b>ahora reconocido como Clip Studio Paint. Es un <i>software</i> para la creación de comics y manga</b>, que incluye herramientas de ilustración y de compilación editorial, lo que ayudará a crear historias completas.
+                    h5 <i>Clip Studio Paint</i> 
+                    p Para los amantes del cómic, no existe una mejor opción que el antes conocido como <b>“Manga <i>Studio”</i></b> y <b>ahora reconocido como <i>Clip Studio Paint</i>. Es un <i>software</i> para la creación de comics y manga</b>, que incluye herramientas de ilustración y de compilación editorial, lo que ayudará a crear historias completas.
                       br
                       br
                       |Posee herramientas como entintados, tramas, efectos, globos de texto, etc.
@@ -144,7 +144,7 @@
               .carousel-item.px-4
                 .row.align-items-center
                   .col-lg-6
-                    h5 Rebelle 3
+                    h5 <i>Rebelle</i> 3
                     p <i>Software</i> que posee un sinnúmero de herramientas que emulan la ilustración tradicional, <b>como acuarelas y acrílicos, pasteles y carboncillos que simulan muchos elementos usados tradicionalmente.</b> Es una alternativa muy interesante si se desean replicar texturas y elementos que interactúan muy bien con paletas de colores que asemejan diluirse con aguas y aceites, dando resultados muy satisfactorios.
                   .col-lg-6
                     .rounded-3.overflow-hidden
@@ -161,7 +161,7 @@
                 .row.align-items-center
                   .col-lg-6
                     h5 Sketchbook Pro
-                    p Con una <b>interfaz sencilla y con una biblioteca que cuenta con más de 300 pinceles, aerógrafos, difuminadores, etc.</b>, se convierte en un compañero ideal al momento de pensar en realizar bocetos e ilustraciones de todo tipo. Es una de las <b>opciones más interesantes para crear bocetos simples</b> y su facilidad de crear flips o capas es ideal para crear animaciones. 
+                    p Con una <b>interfaz sencilla y con una biblioteca que cuenta con más de 300 pinceles, aerógrafos, difuminadores, etc.</b>, se convierte en un compañero ideal al momento de pensar en realizar bocetos e ilustraciones de todo tipo. Es una de las <b>opciones más interesantes para crear bocetos simples</b> y su facilidad de crear <i>flips</i> o capas es ideal para crear animaciones. 
                   .col-lg-6
                     .rounded-3.overflow-hidden
                       img(src="@/assets/curso/17.jpg")
@@ -176,8 +176,8 @@
               .carousel-item.px-4
                 .row.align-items-center
                   .col-lg-6
-                    h5 Gimp
-                    p Es un <i>software</i> que tiene más de 20 años en el mercado y es que es ni más ni menos uno de los <i>softwares</i> gratis más populares, ya que reúne características avanzadas para edición de imágenes o fotos, pintura, diseño, imágenes digitales, etc. Con una interfaz muy similar a la de Adobe, Gimp utiliza herramientas muy precisas para la creación y edición, siendo la alternativa más similar a Photoshop, contando con interfaces y funcionalidades muy parecidas. Permite importar y exportar en varios formatos, al igual que en formato PSD.
+                    h5 <i>Gimp</i>
+                    p Es un <i>software</i> que tiene más de 20 años en el mercado y es que es ni más ni menos uno de los <i>softwares</i> gratis más populares, ya que reúne características avanzadas para edición de imágenes o fotos, pintura, diseño, imágenes digitales, etc. Con una interfaz muy similar a la de Adobe, <i>Gimp</i> utiliza herramientas muy precisas para la creación y edición, siendo la alternativa más similar a Photoshop, contando con interfaces y funcionalidades muy parecidas. Permite importar y exportar en varios formatos, al igual que en formato PSD.
                   .col-lg-6
                     .rounded-3.overflow-hidden
                       img(src="@/assets/curso/19.jpg")
@@ -192,7 +192,7 @@
               .carousel-item.px-4
                 .row.align-items-center
                   .col-lg-6
-                    h5 Procreate
+                    h5 <i>Procreate</i>
                     p Es la aplicación para iPad más popular, dada que su conectividad con sus accesorios la convierte en el mejor lienzo digital que se puede encontrar en el mercado, debido a su variedad de pinceles, infinidad de colores y la funcionalidad de crear capas para la creación de animaciones. 
                   .col-lg-6
                     .rounded-3.overflow-hidden

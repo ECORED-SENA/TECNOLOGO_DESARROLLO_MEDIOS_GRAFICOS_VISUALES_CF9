@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Del boceto a la ilustración
+      h1 Ilustración 
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
         p.mb-3 La ilustración, no dibujo, como se conoce hoy en día, tiene sus orígenes en la prehistoria, pasando por diversos periodos, y se puede definir como la representación a escala de un objeto, cuyo objetivo es la descripción visual de un elemento o proceso; suele ser un componente gráfico que complementa o acentúa los textos.
@@ -90,7 +90,7 @@
               .col-md-6.mb-4.mb-md-0
                 h4 Conceptualización
                 p Para conseguir la ilustración que se propone, se avanza a explorar un poco más, consultando referencias gráficas, las que contribuirán con ideas de diferentes artistas y ampliarán el abanico de posibilidades para la construcción del proyecto.
-            .row(titulo="").px-5
+            .row(titulo="Bocetación").px-5
               .col-md-4
                 figure
                   img(src='@/assets/curso/47.jpg', alt='Texto que describa la imagen')
@@ -105,7 +105,7 @@
                 h4 Finalización
                 p Donde se hará uso de las técnicas con las que mejor se trabaje y se pueda llegar a una digitalización para su presentación final. Acá se dan los últimos detalles y se dará  conclusión a la obra de arte.
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.2. Clasificación de ilustraciones
+      h2 2.2 Clasificación de ilustraciones
     p.mb-5 En el mundo del diseño y la ilustración, es posible encontrar distintos tipos de ilustraciones, pero es necesario clasificarlas en dos grandes secciones o clases: ilustraciones conceptuales e ilustraciones literales. Conozca cada una de ellas.
     .texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
       h4.mb-0.me-3 Ilustraciones conceptuales
@@ -160,9 +160,10 @@
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")   
     .texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
       h4.mb-0.me-3 Técnicas análogas
-    p.mb-5 Este tipo de ilustración es la que se hace sobre un sustrato físico, sea papel, tela, madera, etc., utilizando colores con pigmentos. Es una técnica que se hace de modo manual y en su mayoría de veces individual, y requiere de preparación de sus elementos, como lo serían los lienzos y los elementos con los que se trabajará o se ilustrará.
+    p.mb-5 Se puede entender que hoy en día estas técnicas son poco utilizadas por su complejidad y por la cantidad de técnicas digitales que asemejan de buena manera muchas de las técnicas análogas, aunque muchas marcas y estilos están retornando a estas técnicas y encontrando salida y apareciendo nuevos ilustradores con nuevos estilos. 
       br
-      |Esta técnica está en estrecha relación con la capacidad, aptitud y destreza de quienes la realizan, así como el nivel de complejidad, de expresión y el uso de las técnicas. A continuación, algunas de sus principales formas:
+      |Es importante conocer las diferentes técnicas que ayudarán ampliar el conocimiento para desarrollar diferentes tipos de ilustración y encontrar su posición en alguno de los procesos de producción de ilustraciones. 
+
     SlyderD.mb-5(:datos="datosSlyder2")
     p.mb-5 Este tipo de ilustración es la que se hace sobre un sustrato físico, sea papel, tela, madera, etc., utilizando colores con pigmentos. Es una técnica que se hace de modo manual y en su mayoría de veces individual, y requiere de preparación de sus elementos, como lo serían los lienzos y los elementos con los que se trabajará o se ilustrará.
       br
@@ -171,7 +172,7 @@
       h4.mb-0.me-3 Técnicas digitales
     .row.mb-5.align-items-center
       .col-lg-7(data-aos="fade-right")
-        p.mb-3 Por otro lado, existen las técnicas digitales de ilustración, y estas dependen del uso de programas de software especializado, que cuentan con herramientas y elementos pertinentes para esta labor, los cuales, avanzando y evolucionando constantemente, han acaparado el mercado de la ilustración y muchos artistas han estado volcándose hacia estas técnicas poco a poco. Actualmente, es posible encontrar diferentes estilos de ilustración digital, los cuales utilizan distintas herramientas y características, así como en las técnicas análogas. 
+        p.mb-3 Por otro lado, existen las técnicas digitales de ilustración, y estas dependen del uso de programas de <i>software</i> especializado, que cuentan con herramientas y elementos pertinentes para esta labor, los cuales, avanzando y evolucionando constantemente, han acaparado el mercado de la ilustración y muchos artistas han estado volcándose hacia estas técnicas poco a poco. Actualmente, es posible encontrar diferentes estilos de ilustración digital, los cuales utilizan distintas herramientas y características, así como en las técnicas análogas. 
       .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
         .imagen-adornos-flotantes
           img(src="@/assets/curso/66.jpg" alt="Adornos flotantes")
@@ -187,7 +188,7 @@
               figure
                 img(src='@/assets/curso/67.jpg', alt='Texto que describa la imagen')
             .col-md-8.mb-4.mb-md-0
-              h3 Técnica digital en mapa de bits o imágenes rasterizadas.
+              h3 Técnica digital en mapa de bits o imágenes rasterizadas
               p Se basa en la edición de gráficos elaborados con base en puntos o pixeles. El programa más utilizado en esta técnica es el Adobe Photoshop, que permite trabajar con gráficos y retoque fotográfico, al igual que con la configuración de pinceles, estructura de capas y modos de transparencia.
                 br
                 br
@@ -215,10 +216,11 @@
           .row
             .col-md-8.mb-4.mb-md-0
               h3 Técnica digital en modelado 3D
-              p Un vector es una imagen creada mediante fórmulas matemáticas, formada por curvas. Esta técnica es muy popular y tiene amplia utilización en los programas Adobe Illustrator y CorelDRAW; se caracteriza por líneas limpias, colores planos y formas simples. Tiene una ventaja, ya que se puede aumentar, disminuir o modificar el tamaño de la imagen, sin que pierda nitidez ni calidad.
+              p Mediante esta técnica se crean formas en tercera dimensión, con volumen, por medio de programas o <i>softwares</i> especializados. Es importante tener en cuenta las texturas y tamaños, para crear personajes, productos, objetos, etc. El proceso manual para preparar los gráficos 3D es similar al de la escultura. Hay una serie de <i>softwares</i> 3D que se utilizan en la construcción de modelos tridimensionales.
                 br
                 br
-                |Es la técnica más utilizada para ilustraciones y diseños rápidos, adaptándose al mundo de hoy con mucha facilidad y más en el mundo de la publicidad y las comunicaciones, dada su facilidad y rapidez al momento de conseguir resultados.
+                |Es una técnica con la que es posible representar medios y realidades que, en el mundo de la creación de videojuegos o simplemente para la creación de modelos, hace que sea una de las técnicas apetecidas en los últimos tiempos.
+
             .col-md-3
               figure
                 img(src='@/assets/curso/70.jpg', alt='Texto que describa la imagen')
@@ -246,7 +248,7 @@
           .img(style=" position: absolute; top: -15%;  left: 0; width: 100%;  ")
             img(src="@/assets/curso/72.svg" alt="Adornos flotantes" style=" width: 70px").m-auto
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.4. Composición y perspectiva
+      h2 2.4 Composición y perspectiva
     p.mb-5 La <b>composición es la relación y organización que existe entre los elementos que forman una imagen como un todo y que comunican al espectador en qué orden</b> debe mirar y por qué. Esta relación es lo primero que perciben las personas y lo ideal es que sientan que el conjunto de elementos que forman la imagen es equilibrado, que sus colores son los adecuados, el tamaño es proporcionado y que entienden lo que quiso transmitir el ilustrador.
       br
       br
@@ -300,8 +302,7 @@
             .iconos
               i.fas.fa-angle-down
               i.fas.fa-angle-up
-            p Es la que se refiere a la geometría de la escena y los elementos que la contienen, dado que, con las distancias, estos elementos tienden a perder tamaño, definición y, claro está, su detalle. Se encuentra que los elementos que están más cerca se van a ver más grandes, es posible percatarse de que los contornos se van suavizando con su distancia, al igual que sus ángulos y sus aristas.
-    p.mb-5 Entendido esto, podemos establecer tres tipos de perspectiva:
+            p El elemento principal de la perspectiva son las líneas paralelas y oblicuas; las primeras son las que atraviesan toda la escena y nunca se juntan unas con otras; por otro lado, las líneas oblicuas son las encargadas de crear la sensación de profundidad y convergen en algún punto a la distancia, estos puntos se denominan puntos de fuga. 
     ImagenInfografica.color-acento-contenido.mb-5
       template(v-slot:imagen)
         figure
@@ -330,7 +331,7 @@
           .img(style=" position: absolute; top: -15%;  left: 0; width: 100%;  ")
             img(src="@/assets/curso/84.svg" alt="Adornos flotantes" style=" width: 70px").m-auto
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.5 Creación de ambientes, personajes y props
+      h2 2.5 Creación de ambientes, personajes y <i>props</i>
     .row.justify-content-center.mb-5
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
@@ -338,7 +339,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/85.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 La creación de ambientes, personajes y props tiene una gran importancia en la elaboración de una escena de teatro, cine, televisión o videojuegos, porque complementa ambientes y da características especiales a situaciones y personajes.
+            p.mb-0 La creación de ambientes, personajes y <i>props</i> tiene una gran importancia en la elaboración de una escena de teatro, cine, televisión o videojuegos, porque complementa ambientes y da características especiales a situaciones y personajes.
     .texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
       h4.mb-0.me-3 Creación de ambientes
     .row.mb-5.align-items-center
@@ -435,7 +436,7 @@
         p.mb-3 Una vez que conocemos los arquetipos que pueden ayudar a enfatizar nuestro personaje, es posible empezar a definir otros rasgos que apunten a mejorar la historia, para volverlo un personaje único, y que pueden contener más información de su personalidad y apariencia. 
           br
           br
-          |<b>Es importante que, al momento de desarrollar personajes, se tenga en cuenta que las características y cualidades deben ir muy de la mano con un buena historia de fondo; esto ayuda a darle motivos, contextos y objetivos al personaje</b>; esta historia permite también explicar el mundo donde la historia tiene relación y alguna información del mundo donde se habita, la idea es proporcionar detalles que ayuden a preparar el camino donde el personaje se va a desarrollar. No es importante dejar todo expuesto en la historia de trasfondo, simplemente la historia irá revelando elementos importantes que ayuden a la trama de nuestro personaje .
+          |<b>Es importante que, al momento de desarrollar personajes, se tenga en cuenta que las características y cualidades deben ir muy de la mano con una buena historia de fondo; esto ayuda a darle motivos, contextos y objetivos al personaje</b>; esta historia permite también explicar el mundo donde la historia tiene relación y alguna información del mundo donde se habita, la idea es proporcionar detalles que ayuden a preparar el camino donde el personaje se va a desarrollar. No es importante dejar todo expuesto en la historia de trasfondo, simplemente la historia irá revelando elementos importantes que ayuden a la trama de nuestro personaje .
       .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
         .imagen-adornos-flotantes
           img(src="@/assets/curso/92.jpg" alt="Adornos flotantes")
@@ -448,7 +449,7 @@
         .col-lg-2
           img(src="@/assets/curso/93.svg" alt="Imagen" style="width: 177px").m-auto
         .col-lg-10
-          p Los <b>Props son objetos o accesorios móviles o portátiles que son utilizados por los personajes en cine, televisión o videojuegos</b>, no forman parte de la ambientación, pero adquieren relevancia a lo largo de la historia que se pretende contar. <b>Hacen reconocible la personalidad de los personajes y hasta lo ubican históricamente</b>, como, por ejemplo, si utilizan una espada romana. Son creados por un artista que tiene como misión crear ideas o aspectos sobre algo que no se conocía y sobre algo conocido, diseñando el objeto desde varios ángulos, en detalle, para que los modeladores puedan crear el objeto, <b>siendo muy importante en el diseño de videojuegos, películas o televisión.</b>
+          p Los <b><i>Props</i> son objetos o accesorios móviles o portátiles que son utilizados por los personajes en cine, televisión o videojuegos</b>, no forman parte de la ambientación, pero adquieren relevancia a lo largo de la historia que se pretende contar. <b>Hacen reconocible la personalidad de los personajes y hasta lo ubican históricamente</b>, como, por ejemplo, si utilizan una espada romana. Son creados por un artista que tiene como misión crear ideas o aspectos sobre algo que no se conocía y sobre algo conocido, diseñando el objeto desde varios ángulos, en detalle, para que los modeladores puedan crear el objeto, <b>siendo muy importante en el diseño de videojuegos, películas o televisión.</b>
     .row.justify-content-center
       .col-lg-10
         .bloque-texto-g.bloque-animado.color-primario.p-3.p-sm-4.p-md-5
@@ -541,7 +542,7 @@ export default {
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Ampliador de Detalles',
+        titulo: 'Ampliador de detalles',
         texto:
           'Es una técnica que se usa para realzar elementos que se extraen de una ilustración, es usada para resaltar información a una mayor escala, como si estuviera una “lupa” encima; ayuda a enfatizar y aclarar información mediante un cuadro alterno.',
         imagen: require('@/assets/curso/56.jpg'),

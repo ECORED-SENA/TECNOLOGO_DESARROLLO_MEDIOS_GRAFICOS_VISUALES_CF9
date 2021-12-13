@@ -151,11 +151,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Capriotti, P. (2009). Branding corporativo. Fundamentos para la gestión estratégica de la identidad corporativa.',
-      link: '',
-    },
-    {
-      referencia: 'Colección de Libros de la Empresa.',
+        'Capriotti, P. (2009). <i>Branding</i> corporativo. Fundamentos para la gestión estratégica de la identidad corporativa. Colección de Libros de la Empresa.',
       link: 'http://www.analisisdemedios.com/branding/BrandingCorporativo.pdf',
     },
     {
@@ -182,7 +178,7 @@ export default {
         'https://blog.hubspot.es/marketing/branding-e-identidad-corporativa-guias-de-estilo',
     },
     {
-      referencia: 'Sosa, A. (2020). Tipos de Branding. Grupo Endor.',
+      referencia: 'Sosa, A. (2020). Tipos de <i>Branding</i>. Grupo Endor.',
       link: 'https://www.grupoendor.com/tipos-de-branding/',
     },
   ],
@@ -214,7 +210,7 @@ export default {
     {
       termino: 'Pantone',
       significado:
-        '“Es un sistema de identificación de colores de impresión creado por la empresa Pantone”. Izquierdo, T. (2019). Diseño gráfico y web.',
+        '“Es un sistema de identificación de colores de impresión creado por la empresa Pantone”. Izquierdo, T. (2019). Diseño gráfico y <i>web</i>.',
     },
     {
       termino: 'Publicidad',
@@ -225,7 +221,7 @@ export default {
   complementario: [
     {
       texto:
-        'Capriotti, P. (2009). Branding corporativo. Fundamentos para la gestión estratégica de la identidad corporativa. Colección de Libros de la Empresa.',
+        'Capriotti, P. (2009). <i>Branding</i> corporativo. Fundamentos para la gestión estratégica de la identidad corporativa. Colección de Libros de la Empresa.',
       tipo: 'PDF',
       descarga: '/downloads/BrandingCorporativo.pdf',
     },
@@ -258,14 +254,14 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Guillermo Eduardo González. ',
-        cargo: 'Instructor Experto Temático',
+        nombre: 'Guillermo Eduardo González ',
+        cargo: 'Instructor experto temático',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
       },
       {
         nombre: 'Eduardo José Velasco',
-        cargo: 'Instructor Experto Temático',
+        cargo: 'Instructor experto temático',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
       },

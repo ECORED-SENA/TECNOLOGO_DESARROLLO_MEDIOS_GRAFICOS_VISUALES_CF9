@@ -6,7 +6,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 3
-        h1 Del boceto a la ilustración
+        h1 Imagen e identidad corporativa
       .row.mb-5
         .col-lg-7(data-aos="fade-right")
           p.mb-3 Aunque ambos términos se asocian y se relacionan con la marca, cada uno define conceptos diferentes. Por una parte, está la <b>identidad corporativa</b>, que se entiende como la identidad de la empresa y la percepción que se tiene de ella misma; por otro lado, está la <b>imagen corporativa</b>, que básicamente define la percepción que el público puede tener sobre una marca.
@@ -19,16 +19,16 @@
             .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
             .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
             .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")
-      .bg--2-claro2.position-relative.p-5
+      .bg--2-claro2.position-relative.p-5.mb-5
         img.position-absolute.d-none.d-lg-block(src="@/assets/curso/39.svg" alt="Adornos flotantes" style="left: 2% ; top: -10%; width: 160px ")
         .row.justify-content-end 
           .col-lg-10
             p.h5 En el siguiente video, se podrán identificar elementos relevantes sobre imagen e identidad corporativa.
-      figure.mb-5
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.1. Diseño de marca y branding   
+      h2 3.1 Diseño de marca y <i>branding</i>   
     p.mb-5  El diseño de marca es la representación gráfica de los valores más relevantes de una empresa. Es parte de la cara visible de la empresa al público, está compuesta por factores psicológicos, gráficos, visuales, e intangibles, que son compartidos a los consumidores. 
       br
       br
@@ -39,11 +39,11 @@
           .row.mb-5(numero="1" titulo="").p-4
             .col-lg-9
               h4 Investigación 
-              p.mb-0 La investigación permitirá tener un mayor conocimiento del cliente, público objetivo y herramientas requeridas para la construcción de criterios con los cuales fundamentar la propuesta. Es importante hacer énfasis en el mercado, analizar la competencia por parte de otras marcas del sector, cuáles son las propuestas de valor que ofrecen, los colores que utilizan, las formas que emplean, las tipografías, cómo dinamizan el espacio, qué lenguaje utilizan, cómo son los empaques, qué materiales emplean, cuáles son sus estrategias, entre otros aspectos. 
+              p.mb-0 La investigación permitirá tener un mayor conocimiento del cliente, público objetivo y herramientas requeridas para la construcción de criterios con los cuales fundamentar la propuesta. Es importante hacer énfasis en el mercado, analizar la competencia por parte de otras marcas del sector, cuáles son las propuestas de valor que ofrecen, los colores que utilizan, las formas que emplean, las tipografías, cómo dinamizan el espacio, qué lenguaje utilizan, cómo son los empaques, qué materiales emplea, cuáles son sus estrategias, entre otros aspectos. 
             .col-lg-3: img(src="@/assets/curso/99.png")
           .row.mb-5(numero="2" titulo="").p-4
             .col-lg-9
-              h4 Brief
+              h4 <i>Brief</i>
               p.mb-0 El brief es un factor que se debe tener en cuenta para un buen planteamiento del proyecto. Este informe, que puede realizar de acuerdo con sus propios parámetros, es fundamental, ya que allí están consignados y descritos no solo la información del producto, sino los objetivos y resultados que el cliente espera obtener con el diseño de su marca. 
             .col-lg-3: img(src="@/assets/curso/100.png")
           .row.mb-5(numero="3" titulo="").p-4
@@ -60,8 +60,8 @@
       .row.align-items-center.justify-content-center.mb-5.px-5
         .col-lg-4: img(src="@/assets/curso/102.svg")
         .col-lg-8
-          h4 Naming
-          p El naming es el proceso que se lleva a cabo para determinar el mejor nombre para la marca. Es tan importante el naming que se convierte en un activo empresarial, porque el público va a relacionar de primera mano el nombre de la marca con sus atributos, valores y beneficios.
+          h4 <i>Naming</i>
+          p El <i>naming</i> es el proceso que se lleva a cabo para determinar el mejor nombre para la marca. Es tan importante el naming que se convierte en un activo empresarial, porque el público va a relacionar de primera mano el nombre de la marca con sus atributos, valores y beneficios.
     p.mb-5 Los tipos de naming son: 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-azul")
       .row(titulo="Nombre descriptivo").px-5.align-items-center
@@ -92,7 +92,7 @@
     p.mb-5 Existen diferentes métodos para comprobar si el naming seleccionado es el adecuado o no, considere las siguientes características básicas:
     .row.mb-5.justify-content-center
       .col-lg-10
-        img(src="@/assets/curso/107.jpg")
+        img(src="@/assets/curso/107.svg")
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
         .bg--3-claro2.p-3.mb-3.hover-flip.hover
@@ -102,7 +102,10 @@
                 img(src='@/assets/curso/109.svg', alt='Texto que describa la imagen' style='width: 79px;').m-auto
             .col-lg-10
               p.mb-0 <b>Diseño de marca:</b> una vez cubiertos los pasos anteriores, es momento de empezar a crear la marca, la estrategia de comunicación, diseñar y ejecutar las piezas propuestas; todo lo anterior, basado en los estudios previos realizados.
-        p.mb-3 <b>Construir una marca es mucho más que elegir un nombre y diseñar un logotipo</b>, es lograr que sea conocida y recordada en la mente de los consumidores; para ello, es necesario crear un ecosistema completo, donde todo esté interconectado y se generen acciones relacionadas con ese propósito. 
+        h4.mb-0 <i>Branding</i>
+        p.mb-3 Se entiende como el proceso de construcción de una marca y todos los aspectos que intervienen.
+          br
+          |Construir una marca es mucho más que elegir un nombre y diseñar un logotipo, es lograr que sea conocida y recordada en la mente de los consumidores; para ello, es necesario crear un ecosistema completo, donde todo esté interconectado y se generen acciones relacionadas con ese propósito. 
           br
           |El branding comprende experiencias, ideas, sensaciones, colores, y personas; un conjunto de elementos, mayormente intangibles, que tienen que ver más con las emociones y la psicología que con lo externo de las cosas, pero que son capaces de transmitir la propuesta de valor que diferencia a la empresa en el mercado y la hace competitiva. 
       .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
@@ -131,7 +134,7 @@
                         img(src='@/assets/curso/110.svg', alt='Texto que describa la imagen' style='width: 400px;' ).m-auto.px-3
                     .tarjeta-contenido.d-flex.align-items-center(style='height: 321px')
                       .tarjeta-contenido__textos.px-3(style="margin-top: 0px;")
-                        h5 Branding comercial
+                        h5 <i>Branding</i> comercial
                         p Su principal función es la de diferenciar un producto frente a otro de la competencia, basado en sus características principales tangibles y sus valores intangibles. 
                 .carousel-item.px-4
                   .contenedor-tarjetas.position-relative.py-5
@@ -140,7 +143,7 @@
                         img(src='@/assets/curso/111.svg', alt='Texto que describa la imagen' style='width: 400px;' ).m-auto.px-3
                     .tarjeta-contenido.d-flex.align-items-center(style='height: 321px')
                       .tarjeta-contenido__textos.px-3(style="margin-top: 0px;")
-                        h5 Branding personal
+                        h5 <i>Branding</i> personal
                         p Se refiere a personas que son su propia marca, que venden su imagen, formación, conocimiento o experiencias, a un público en específico; pueden ser conferencistas, personas de negocios, o cualquier individuo interesado en gestionar y proyectar su imagen.  
                 .carousel-item.px-4
                   .contenedor-tarjetas.position-relative.py-5
@@ -149,36 +152,36 @@
                         img(src='@/assets/curso/112.svg', alt='Texto que describa la imagen' style='width: 400px;' ).m-auto.px-3
                     .tarjeta-contenido.d-flex.align-items-center(style='height: 321px')
                       .tarjeta-contenido__textos.px-3(style="margin-top: 0px;")
-                        h5 Country branding
-                        p Este branding es utilizado por ciudades o países, para vender su propia marca, con ello desean consolidarse a nivel turístico, mostrando las diferencias que los hacen únicos frente a otros lugares similares, resaltando su cultura, paisajes, comida, hospitalidad de su gente, mejores precios, entre otros. 
+                        h5 <i>Country branding</i>
+                        p Este <i>branding</i> es utilizado por ciudades o países, para vender su propia marca, con ello desean consolidarse a nivel turístico, mostrando las diferencias que los hacen únicos frente a otros lugares similares, resaltando su cultura, paisajes, comida, hospitalidad de su gente, mejores precios, entre otros. 
                         
                 .carousel-item.px-4
                   .contenedor-tarjetas.position-relative.py-5
-                    .tarjeta-icono.bg--4.position-relative(style='height: 296px; ')
+                    .tarjeta-icono.bg--4.position-relative(style='height: 296px; ').mb-5.mb-lg-0
                       .icono.position-absolute(style='width: 100%; top: -22%; left: 0;')
                         img(src='@/assets/curso/113.svg', alt='Texto que describa la imagen' style='width: 350px;' ).m-auto.px-3
                     .tarjeta-contenido.d-flex.align-items-center(style='height: 321px')
-                      .tarjeta-contenido__textos.px-3.mt-4(style="margin-top: 0px;")
-                        h5 Digital branding
+                      .tarjeta-contenido__textos.px-3.mt-5(style="margin-top: 0px;")
+                        h5 Digital <i>branding</i>
                         p Hace referencia a estrategias de marca que se llevan a cabo concretamente a través de medios digitales; el branding digital es necesario para fomentar relaciones más estrechas y profundas entre las marcas y las personas. Dentro de estos escenarios digitales, existen puntos de contacto, como :
                         .listas.d-flex.flex-wrap.mb-3
                           ul.lista-ul--color
                             li 
                               i.fas.fa-angle-right
-                              |Social media
+                              p.mb-0 <i>Social media</i>
                             li 
                               i.fas.fa-angle-right
-                              | Marketing de influencia
+                              p.mb-0 <i>Marketing</i> de influencia
                             li 
                               i.fas.fa-angle-right
-                              | Marketing de contenidos
+                              p.mb-0 <i>Marketing</i> de contenidos
                           ul.lista-ul--color.ms-5
                             li 
                               i.fas.fa-angle-right
-                              | Marketing de correo
+                              p.mb-0 <i>Marketing</i> de correo
                             li 
                               i.fas.fa-angle-right
-                              | Motores de búsqueda
+                              p.mb-0 Motores de búsqueda
           button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
             span.carousel-control-prev-icon(aria-hidden='true')
             span.visually-hidden Previous
@@ -263,7 +266,7 @@
           | Cada producto editorial tiene una manera única de desarrollar su contenido; cuentan con algunos elementos y requerimientos que deben considerarse en la elaboración de las piezas editoriales; aun cuando la estructura puede ser similar, el desarrollo interno de cada uno será diferente.
       .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
         .imagen-adornos-flotantes
-          img(src="@/assets/curso/122.jpg" alt="Adornos flotantes")
+          img(src="@/assets/curso/122.png" alt="Adornos flotantes")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")
@@ -419,9 +422,9 @@
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 10% ; top: ; bottom: 10% ; width: 90px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")
-    .bg-imagen.position-relative.p-5.mb-5
-      .texto-ab.bg--2-claro2.p-4.d-flex.position-absolute.w-70
-        p Respecto al desarrollo gráfico, es necesario profundizar en elementos de ergonomía cognitiva, es decir, comprender cómo un ambiente puede promover ciertos aprendizajes a partir del uso de colores, tipografía, imágenes o fotografías. En este sentido, es importante el trabajo que desarrolla el diseñador, la reflexión frente al lenguaje visual de los contenidos, cuál es el lugar adecuado para la imagen, el color y la tipografía, en la búsqueda de apoyar la comprensión de ideas y conceptos (Leyva, s. f.).
+    .bg-imagen.p-5.mb-5
+      .texto-ab.bg--2-claro2.p-4
+        p.mb-0 Respecto al desarrollo gráfico, es necesario profundizar en elementos de ergonomía cognitiva, es decir, comprender cómo un ambiente puede promover ciertos aprendizajes a partir del uso de colores, tipografía, imágenes o fotografías. En este sentido, es importante el trabajo que desarrolla el diseñador, la reflexión frente al lenguaje visual de los contenidos, cuál es el lugar adecuado para la imagen, el color y la tipografía, en la búsqueda de apoyar la comprensión de ideas y conceptos (Leyva, s. f.).
     p.mb-5.mt-5 Estos materiales didácticos pueden tener varias presentaciones: libros, carteles, videos, cartillas, infografías, entre otros. Estos recursos son elaborados a partir de la identificación de la necesidad educativa y definición del público objetivo y sus características: área de conocimiento, nivel educativo, edad, conocimientos previos, capacidades, habilidades y experiencias; información valiosa que servirá de insumo para generar los conceptos gráficos. 
       br
       br
@@ -537,13 +540,21 @@ export default {
 .bg--lista
   background-color: #d3f4f8
 .bg-imagen
+  position: relative
   background-image: url(../assets/curso/137.jpg)
   background-repeat: no
   background-size: cover
   background-position: center
   height: 307px
+  @media (max-width: $bp-min-lg)
+    height: fit-content
   .texto-ab
+    position: absolute
     width: 40%
     right: 10%
     bottom: -10%
+    @media (max-width: $bp-min-lg)
+      position: relative
+      width: 100%
+      bottom: 0
 </style>
