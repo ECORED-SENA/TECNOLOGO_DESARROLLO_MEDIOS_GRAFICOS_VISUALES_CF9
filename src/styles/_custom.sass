@@ -216,5 +216,11 @@
   background-repeat: no-repeat
 
 .slyder-d__content__card
-  width: 700px
+  @media (min-width: $bp-min-md)
+    width: fit-content
+  @media (max-width: $bp-min-sm)
+    width: 100%
+@media (min-width: $bp-min-md)
+  .slyder-d__imagen
+    height: 500px
 

@@ -87,7 +87,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Creación de ambientes, personajes y props	',
+            titulo: 'Creación de ambientes, personajes y <i>props</i>	',
             hash: 't_2_5',
           },
         ],
@@ -319,7 +319,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

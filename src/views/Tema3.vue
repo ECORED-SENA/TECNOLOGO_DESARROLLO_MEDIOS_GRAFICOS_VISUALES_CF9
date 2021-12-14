@@ -95,14 +95,14 @@
         img(src="@/assets/curso/107.svg")
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
-        .bg--3-claro2.p-3.mb-3.hover-flip.hover
+        .bg--3-claro2.p-3.mb-3.hover-flip.hover.mb-5
           .row.justify-content-center.align-items-center
             .col-lg-2
               figure
                 img(src='@/assets/curso/109.svg', alt='Texto que describa la imagen' style='width: 79px;').m-auto
             .col-lg-10
               p.mb-0 <b>Diseño de marca:</b> una vez cubiertos los pasos anteriores, es momento de empezar a crear la marca, la estrategia de comunicación, diseñar y ejecutar las piezas propuestas; todo lo anterior, basado en los estudios previos realizados.
-        h4.mb-0 <i>Branding</i>
+        h4 <i>Branding</i>
         p.mb-3 Se entiende como el proceso de construcción de una marca y todos los aspectos que intervienen.
           br
           |Construir una marca es mucho más que elegir un nombre y diseñar un logotipo, es lograr que sea conocida y recordada en la mente de los consumidores; para ello, es necesario crear un ecosistema completo, donde todo esté interconectado y se generen acciones relacionadas con ese propósito. 

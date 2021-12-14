@@ -160,14 +160,13 @@
           .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 15% ; right: ; top: ; bottom: 5% ; width: 60px ")   
     .texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
       h4.mb-0.me-3 Técnicas análogas
-    p.mb-5 Se puede entender que hoy en día estas técnicas son poco utilizadas por su complejidad y por la cantidad de técnicas digitales que asemejan de buena manera muchas de las técnicas análogas, aunque muchas marcas y estilos están retornando a estas técnicas y encontrando salida y apareciendo nuevos ilustradores con nuevos estilos. 
-      br
-      |Es importante conocer las diferentes técnicas que ayudarán ampliar el conocimiento para desarrollar diferentes tipos de ilustración y encontrar su posición en alguno de los procesos de producción de ilustraciones. 
-
-    SlyderD.mb-5(:datos="datosSlyder2")
     p.mb-5 Este tipo de ilustración es la que se hace sobre un sustrato físico, sea papel, tela, madera, etc., utilizando colores con pigmentos. Es una técnica que se hace de modo manual y en su mayoría de veces individual, y requiere de preparación de sus elementos, como lo serían los lienzos y los elementos con los que se trabajará o se ilustrará.
       br
       |Esta técnica está en estrecha relación con la capacidad, aptitud y destreza de quienes la realizan, así como el nivel de complejidad, de expresión y el uso de las técnicas. A continuación, algunas de sus principales formas:
+    SlyderD.mb-5(:datos="datosSlyder2")
+    p.mb-5 Se puede entender que hoy en día estas técnicas son poco utilizadas por su complejidad y por la cantidad de técnicas digitales que asemejan de buena manera muchas de las técnicas análogas, aunque muchas marcas y estilos están retornando a estas técnicas y encontrando salida y apareciendo nuevos ilustradores con nuevos estilos. 
+      br
+      |Es importante conocer las diferentes técnicas que ayudarán ampliar el conocimiento para desarrollar diferentes tipos de ilustración y encontrar su posición en alguno de los procesos de producción de ilustraciones. 
     .texto-adorno.bg--2.px-4.py-2.mb-5(data-aos="fade-right")
       h4.mb-0.me-3 Técnicas digitales
     .row.mb-5.align-items-center
