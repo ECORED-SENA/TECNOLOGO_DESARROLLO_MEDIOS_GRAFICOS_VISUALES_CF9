@@ -429,7 +429,7 @@
     p.mb-5 Para la construcción de un personaje, es importante tener en cuenta el arquetipo o el paradigma del personaje, que básicamente son sus características. En el siguiente video, se podrán identificar herramientas de valor para la construcción de arquetipos. 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/64qw_UWdxoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-5.align-items-center
       .col-lg-7(data-aos="fade-right")
         p.mb-3 Una vez que conocemos los arquetipos que pueden ayudar a enfatizar nuestro personaje, es posible empezar a definir otros rasgos que apunten a mejorar la historia, para volverlo un personaje único, y que pueden contener más información de su personalidad y apariencia. 

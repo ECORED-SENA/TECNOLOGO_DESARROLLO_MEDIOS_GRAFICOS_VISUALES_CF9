@@ -26,7 +26,7 @@
             p.h5 En el siguiente video, se podrán identificar elementos relevantes sobre imagen e identidad corporativa.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/NfnrwqeWjgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Diseño de marca y <i>branding</i>   
     p.mb-5  El diseño de marca es la representación gráfica de los valores más relevantes de una empresa. Es parte de la cara visible de la empresa al público, está compuesta por factores psicológicos, gráficos, visuales, e intangibles, que son compartidos a los consumidores. 
