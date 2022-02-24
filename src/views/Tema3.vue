@@ -61,15 +61,15 @@
         .col-lg-4: img(src="@/assets/curso/102.svg")
         .col-lg-8
           h4 <i>Naming</i>
-          p El <i>naming</i> es el proceso que se lleva a cabo para determinar el mejor nombre para la marca. Es tan importante el naming que se convierte en un activo empresarial, porque el público va a relacionar de primera mano el nombre de la marca con sus atributos, valores y beneficios.
-    p.mb-5 Los tipos de naming son: 
+          p El <i><em>naming</em></i> es el proceso que se lleva a cabo para determinar el mejor nombre para la marca. Es tan importante el <em>naming</em> que se convierte en un activo empresarial, porque el público va a relacionar de primera mano el nombre de la marca con sus atributos, valores y beneficios.
+    p.mb-5 Los tipos de <em>naming</em> son: 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-azul")
       .row(titulo="Nombre descriptivo").px-5.align-items-center
         .col-md-2
           figure
             img(src='@/assets/curso/103.svg', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0
-          p El naming descriptivo es aquel que en su marca cita específicamente o describe la actividad comercial principal del producto de la marca. Esta asociación de marca – producto genera gran recordación en el cliente. <b>Por ejemplo</b>, Burger King, pinturas Tito Pabón.
+          p El <em>naming</em> descriptivo es aquel que en su marca cita específicamente o describe la actividad comercial principal del producto de la marca. Esta asociación de marca – producto genera gran recordación en el cliente. <b>Por ejemplo</b>, Burger King, pinturas Tito Pabón.
       .row(titulo="Nombres acrónimos").px-5.align-items-center
         .col-md-2
           figure
@@ -88,8 +88,8 @@
             img(src='@/assets/curso/106.svg', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0
           p Estos se construyen a partir de las sensaciones, emociones o experiencias que la marca genera en el consumidor; movilizan al cliente a la selección de dichos productos basados precisamente en la experiencia que les genera. 
-    h4.mb-0 Características de un buen naming  
-    p.mb-5 Existen diferentes métodos para comprobar si el naming seleccionado es el adecuado o no, considere las siguientes características básicas:
+    h4.mb-0 Características de un buen <em>naming</em>  
+    p.mb-5 Existen diferentes métodos para comprobar si el <em>naming</em> seleccionado es el adecuado o no, considere las siguientes características básicas:
     .row.mb-5.justify-content-center
       .col-lg-10
         img(src="@/assets/curso/107.svg")
@@ -107,7 +107,7 @@
           br
           |Construir una marca es mucho más que elegir un nombre y diseñar un logotipo, es lograr que sea conocida y recordada en la mente de los consumidores; para ello, es necesario crear un ecosistema completo, donde todo esté interconectado y se generen acciones relacionadas con ese propósito. 
           br
-          |El branding comprende experiencias, ideas, sensaciones, colores, y personas; un conjunto de elementos, mayormente intangibles, que tienen que ver más con las emociones y la psicología que con lo externo de las cosas, pero que son capaces de transmitir la propuesta de valor que diferencia a la empresa en el mercado y la hace competitiva. 
+          |El <em>branding</em> comprende experiencias, ideas, sensaciones, colores, y personas; un conjunto de elementos, mayormente intangibles, que tienen que ver más con las emociones y la psicología que con lo externo de las cosas, pero que son capaces de transmitir la propuesta de valor que diferencia a la empresa en el mercado y la hace competitiva. 
       .col-lg-5.mt-lg-0.mt-3(data-aos="fade-left")
         .imagen-adornos-flotantes
           img(src="@/assets/curso/108.jpg" alt="Adornos flotantes")
@@ -163,7 +163,7 @@
                     .tarjeta-contenido.d-flex.align-items-center(style='height: 321px')
                       .tarjeta-contenido__textos.px-3.mt-5(style="margin-top: 0px;")
                         h5 Digital <i>branding</i>
-                        p Hace referencia a estrategias de marca que se llevan a cabo concretamente a través de medios digitales; el branding digital es necesario para fomentar relaciones más estrechas y profundas entre las marcas y las personas. Dentro de estos escenarios digitales, existen puntos de contacto, como :
+                        p Hace referencia a estrategias de marca que se llevan a cabo concretamente a través de medios digitales; el <em>branding</em> digital es necesario para fomentar relaciones más estrechas y profundas entre las marcas y las personas. Dentro de estos escenarios digitales, existen puntos de contacto, como :
                         .listas.d-flex.flex-wrap.mb-3
                           ul.lista-ul--color
                             li 
@@ -391,7 +391,7 @@
           img(src='@/assets/curso/133.jpg' alt='AvatarTop' style='width: 123px')
           .tarjeta.bg--3-claro2.hover-bg--4.w-100.h-100.mt-4
             .p-4.text-center
-              h4 Poster 
+              h4 Póster 
               p Este es un documento que está compuesto principalmente por imágenes, texto y recursos gráficos. Debe ser de gran tamaño y tener una tipografía estéticamente atractiva y de fácil lectura para el transeúnte; los espacios externos son los habituales para esta clase de productos gráficos.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
